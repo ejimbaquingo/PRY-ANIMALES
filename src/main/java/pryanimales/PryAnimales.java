@@ -14,7 +14,7 @@ public class PryAnimales {
        
         System.out.println("Ingrese el nombre del mamifero:");
         String nombreMamifero = scanner.nextLine();
-        System.out.println("Ingrese la edad del mamifero (en years):");
+        System.out.println("Ingrese la edad del mamifero (en years enteros):");
         int edadMamifero = scanner.nextInt();
         scanner.nextLine(); 
         System.out.println("Ingrese el tipo de pelaje del mamifero:");
@@ -27,7 +27,7 @@ public class PryAnimales {
 
         System.out.println("\nIngrese el nombre del ave:");
         String nombreAve = scanner.nextLine();
-        System.out.println("Ingrese la edad del ave (en years):");
+        System.out.println("Ingrese la edad del ave (en years enteros):");
         int edadAve = scanner.nextInt();
         System.out.println("Ingrese la envergadura de las alas (en metros):");
         double envergadura = scanner.nextDouble();
@@ -40,7 +40,7 @@ public class PryAnimales {
 
         System.out.println("\nIngrese el nombre del reptil:");
         String nombreReptil = scanner.nextLine();
-        System.out.println("Ingrese la edad del reptil (en years):");
+        System.out.println("Ingrese la edad del reptil (en years enteros):");
         int edadReptil = scanner.nextInt();
         scanner.nextLine(); 
         System.out.println("Ingrese el tipo de escamas del reptil:");
